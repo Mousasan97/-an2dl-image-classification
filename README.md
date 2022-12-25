@@ -6,7 +6,7 @@ The challenge consisted on the classification of 8 different plant species from 
 We ended up acheiving an **accuracy of 86%**, you can check the results [here](https://codalab.lisn.upsaclay.fr/competitions/8522#results).
 
 ## Models details
-For more details about the model check the [Report](ANNDL1-Report.pdf). Briefly, we used the following techniques:
+For more details about the model check the [Report](ANNDL1%20-%20Report.pdf). Briefly, we used the following techniques:
 1. Transfer Learning with `DenseNet` model with the "Weight Initialization" technique: the whole model was trained, in two phases. First, only the classification head with an high learning rate and then the whole model with a low learning rate.
 3. Standard data augmentation (flip, rotate, zoom)
 5. [Class weighting](https://www.tensorflow.org/tutorials/structured_data/imbalanced_data#class_weights) to fight the imbalance of the dataset
