@@ -11,11 +11,4 @@ For more details about the model check the [Report](report/Report.pdf). Briefly,
 3. Standard data augmentation (flip, rotate, zoom)
 5. [Class weighting](https://www.tensorflow.org/tutorials/structured_data/imbalanced_data#class_weights) to fight the imbalance of the dataset
 
-## Running the code
-### Requirements
-This project uses [Poetry](https://python-poetry.org/docs/basic-usage/) to manage dependencies, you can see how to install Poetry [here](https://python-poetry.org/docs/#installation).
 
-### Set up
-1. Download the dataset from [here](https://drive.google.com/file/d/1uaK_kzFDFelW9z4Voceb5jiX-MdR-4Fa/view?usp=share_link) and save the `zip` inside the `data` folder.
-2. Create Poetry virtual environment `poetry install`
-3. Activate virtual environment
